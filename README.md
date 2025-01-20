@@ -1,3 +1,5 @@
+I was watching an old interview, but the video had a lot of background noise. I wanted to explore options for real-time audio denoising, so here's a small expiriment using ClearWave.
+
 # ClearWave
 
 Real-time audio noise reduction system built with Python, PyQt, and NumPy. ClearWave processes audio input in real-time to reduce background noise while preserving audio quality through FFT-based spectral processing and smooth crossfading.
