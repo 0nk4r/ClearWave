@@ -37,22 +37,9 @@ pip install PyQt5 numpy sounddevice
 
 Basic usage example:
 
-```python
-from clearwave import AudioProcessor
-from PyQt5.QtWidgets import QApplication
-import sys
+```bash
+python3 clearwave.py
 
-app = QApplication(sys.argv)
-processor = AudioProcessor()
-
-# Configure noise reduction (0.0 to 1.0, default 0.5)
-processor.noise_reduction = 0.5
-
-# Start processing
-processor.start()
-
-# Run the application
-sys.exit(app.exec_())
 ```
 
 ## How It Works
